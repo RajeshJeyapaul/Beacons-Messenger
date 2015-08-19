@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="#FF3300">
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dip"
+        android:layout_marginBottom="8dp"
+        android:background="#F2F2F2"
+        android:hint="Enter your name"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:inputType="textCapWords"
+        android:textColor="#222222"
+        />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#f2f2f2"
+        android:layout_below="@+id/name"
+        android:hint="Enter email address"
+        android:inputType="textEmailAddress"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#222222"
+        />
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:background="#f2f2f2"
+        android:hint="Enter Password"
+        android:layout_below="@+id/email"
+        android:inputType="textPassword"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:textColor="#222222"
+        />
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="96dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="63dp"
+        android:background="#008ee0"
+        android:text="Register"
+        android:textStyle="bold"
+        android:textColor="@color/white"
+        android:layout_below="@+id/password"
+        android:layout_centerHorizontal="true" />
+    <EditText
+        android:id="@+id/itemToAdd"
+        android:layout_width="23dp"
+        android:layout_height="20dp"
+        android:visibility="gone"/>
+    <!--<TextView
+        android:id="@+id/titleText"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+        android:text="@string/title_text"
+        android:textColor="@color/list_text_color"
+        android:fontFamily='Roboto'
+        android:textStyle='bold'
+        android:textAllCaps="true"
+        android:textSize="28sp"
+        android:padding="10dp"
+        android:background="@drawable/titlelines">
+    </TextView>
+    <ListView
+        android:id="@+id/itemsList"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+	    android:background="@color/background">
+    </ListView>-->
+
+</RelativeLayout>
